@@ -1,6 +1,5 @@
 import sqlalchemy
 from .db_session import SqlAlchemyBase
-
 class Chanel(SqlAlchemyBase):
     __tablename__ = 'chanels'
 
