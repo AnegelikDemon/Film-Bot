@@ -1,1 +1,1 @@
-from . import films, chanels
+rom . import films, chanels

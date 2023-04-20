@@ -102,8 +102,7 @@ def main():
     application.add_handler(admin_login_handler)
     application.add_handler(admin_add_film_handler)
     application.add_handler(admin_add_advert_handler)
-    application.add_handler(admin_delete_advert_handler)
-    application.add_handler(CommandHandler("admin_menu", admin_menu))
+    application.add_handler(admin_delete_advert_handler)    application.add_handler(CommandHandler("admin_menu", admin_menu))
     application.add_handler(CommandHandler("logout", admin_logout))
 
     # Команды

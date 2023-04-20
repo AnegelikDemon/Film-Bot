@@ -1,5 +1,5 @@
 import sqlalchemy
-from .db_session import SqlAlchemyBase
+rom .db_session import SqlAlchemyBase
 
 
 class Film(SqlAlchemyBase):

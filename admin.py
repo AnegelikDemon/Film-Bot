@@ -9,7 +9,6 @@ from data.chanels import Chanel
 from config import ADMIN_PASWORD, admin_markup, BOT_TOKEN, api_request
 import requests
 
-
 bot = telegram.Bot(token=BOT_TOKEN)
 
 
